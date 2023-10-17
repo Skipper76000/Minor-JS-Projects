@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(image.jpg);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+  font-family: "Lora", serif;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 2.8rem;
+  margin-top: -19.5%;
+}
+
+.dabba {
+  display: flex;
+}
+
+.big-text {
+  font-weight: 100;
+  font-size: 4rem;
+  line-height: 2.5;
+}
+.a {
+  margin: 0 auto;
+}
+
+.dabba span {
+  margin-right: 4.7rem;
+  text-transform: uppercase;
+}
