@@ -1,5 +1,5 @@
 // Set the Countdown Date:
-const newYear = new Date("2024-01-01").getTime();
+const newYear = new Date("2025-01-01").getTime();
 
 function countdown() {
   const newYearDate = new Date(newYear);
