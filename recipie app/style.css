@@ -8,7 +8,7 @@
 
 body {
   font-family: "Lora", serif;
-  background-color: rgba(224, 124, 219, 0.638);
+  background-color: rgba(255, 248, 220, 0.821);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,7 +18,8 @@ body {
 #container {
   width: 25%;
   border: none;
-  background-color: rgba(255, 248, 220, 0.821);
+  background-color: rgba(224, 124, 219, 0.359);
+
   border-top-right-radius: 2%;
   border-top-left-radius: 2%;
   border-bottom-left-radius: 2%;
@@ -187,9 +188,9 @@ i {
   width: 100%;
 }
 
-.meal-info img{
+.meal-info img {
   width: 100%;
-  margin-bottom: 1.5rem ;
+  margin-bottom: 1.5rem;
 }
 
 .popup .close-popup {
@@ -211,7 +212,7 @@ i {
 }
 
 .meal-info p {
-  padding: .3rem;
+  padding: 0.3rem;
   line-height: 1.5;
   margin-bottom: 1.5rem;
 }
@@ -224,7 +225,7 @@ i {
 }
 
 .meal-info li {
-  padding: .4rem 0;
+  padding: 0.4rem 0;
 }
 
 .meal-info ul {
