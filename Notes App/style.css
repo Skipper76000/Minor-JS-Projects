@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100vh;
+  background-color: #fff9d0;
+}
+
+#saveALL {
+  border-radius: 50px;
+  cursor: pointer;
+  position: absolute;
+  top: 1%;
+  left: 0.3%;
+  font-size: 0.9rem;
+  font-weight: 400;
+  height: 1.8rem;
+  padding: 0.45rem;
+  letter-spacing: 0.02rem;
+  border: none;
+  background-color: #74c0fc;
+  box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.119);
+}
+
+#saveALL:hover {
+  background-color: #5ab2ff;
+}
+
+#add {
+  border-radius: 50px;
+  cursor: pointer;
+  position: absolute;
+  top: 1%;
+  right: 0.3%;
+  font-size: 0.9rem;
+  font-weight: 400;
+  height: 1.8rem;
+  padding: 0.45rem;
+  letter-spacing: 0.02rem;
+  border: none;
+  background-color: #74c0fc;
+  box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.119);
+}
+
+#add:hover {
+  background-color: #5ab2ff;
+}
+
+.container {
+  padding: 0.3rem;
+  margin-top: 3rem;
+  height: fit-content;
+}
+
+#notes {
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.188);
+  margin: 0.4rem;
+  position: relative;
+  width: 23rem;
+  height: 25rem;
+  background-color: #caf4ff;
+}
+
+#notes .header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 10%;
+  background-color: #caf4ffd1;
+}
+
+#notes .header > i {
+  font-size: 1.2rem;
+  letter-spacing: 0.5rem;
+  margin-right: 15px;
+  color: #63e6be;
+  cursor: pointer;
+}
+
+#notes .header > i:hover {
+  color: #02c48d;
+}
+
+#notes .notes-body {
+  height: 75%;
+  background-color: #a0deffc9;
+}
+
+#notes .main {
+  font-size: 1.1rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.03rem;
+  line-height: 1.5;
+  border: none;
+  outline: none;
+  width: 23rem;
+  height: 100%;
+  padding: 0.4rem;
+  background-color: #a0deffc9;
+}
+
+.hidden {
+  display: none;
+}
+
+#notes .save {
+  background-color: #5ab2ff62;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  padding: 0.5rem;
+  position: absolute;
+  cursor: pointer;
+  text-align: center;
+  right: 10.5rem;
+  bottom: 4%;
+  box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.119);
+}
+
+#notes .save:hover {
+  background-color: #5ab2ffa8;
+}
+
+#notes .footer {
+  width: 100%;
+  height: 15%;
+  background-color: #caf4ffd1;
+}
+
+#text {
+  font-size: 1.1rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.03rem;
+  line-height: 1.5;
+  border: none;
+  outline: none;
+  width: 23rem;
+  height: 100%;
+  resize: none;
+  padding: 0.4rem;
+  background-color: #a0deffc9;
+}
