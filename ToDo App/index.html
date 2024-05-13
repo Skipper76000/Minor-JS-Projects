@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div id="container">
+      <div id="header">
+        <h1>todos</h1>
+      </div>
+      <form id="todo">
+        <input
+          type="text"
+          placeholder="Enter Your Todo List"
+          id="input"
+          autocomplete="off"
+        />
+        <ul class="todos"></ul>
+        <div class="footer">
+          <h6>Right Click to Remove</h6>
+          <h6>Click to Mark as Completed</h6>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
