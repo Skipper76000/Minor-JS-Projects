@@ -1,68 +1,82 @@
 const quizData = [
   {
-    question: "What is the capital of France?",
-    options: ["Paris", "London", "Berlin", "Madrid"],
-    answer: "Paris",
-  },
-  {
-    question: "What is the largest planet in our solar system?",
-    options: ["Mars", "Saturn", "Jupiter", "Neptune"],
-    answer: "Jupiter",
-  },
-  {
-    question: "Which country won the FIFA World Cup in 2018?",
-    options: ["Brazil", "Germany", "France", "Argentina"],
-    answer: "France",
-  },
-  {
-    question: "What is the tallest mountain in the world?",
-    options: ["Mount Everest", "K2", "Kangchenjunga", "Makalu"],
-    answer: "Mount Everest",
-  },
-  {
-    question: "Which is the largest ocean on Earth?",
+    question: "What does HTML stand for?",
     options: [
-      "Pacific Ocean",
-      "Indian Ocean",
-      "Atlantic Ocean",
-      "Arctic Ocean",
+      "Hyper Text Markup Language",
+      "Hyperlinks and Text Markup Language",
+      "Home Tool Markup Language",
+      "Hyperlinking Textual Markup Language",
     ],
-    answer: "Pacific Ocean",
+    answer: "Hyper Text Markup Language",
   },
   {
-    question: "What is the chemical symbol for gold?",
-    options: ["Au", "Ag", "Cu", "Fe"],
-    answer: "Au",
-  },
-  {
-    question: "Who painted the Mona Lisa?",
+    question: "What does CSS stand for?",
     options: [
-      "Pablo Picasso",
-      "Vincent van Gogh",
-      "Leonardo da Vinci",
-      "Michelangelo",
+      "Creative Style Sheets",
+      "Cascading Style Sheets",
+      "Computer Style Sheets",
+      "Colorful Style Sheets",
     ],
-    answer: "Leonardo da Vinci",
+    answer: "Cascading Style Sheets",
   },
   {
-    question: "Which planet is known as the Red Planet?",
-    options: ["Mars", "Venus", "Mercury", "Uranus"],
-    answer: "Mars",
+    question:
+      "Which of the following is used to add interactivity to a webpage?",
+    options: ["HTML", "CSS", "JavaScript", "Python"],
+    answer: "JavaScript",
   },
   {
-    question: "What is the largest species of shark?",
+    question:
+      "Which programming language is primarily used for building the structure of a webpage?",
+    options: ["JavaScript", "Python", "HTML", "CSS"],
+    answer: "HTML",
+  },
+  {
+    question:
+      "Which of the following is a version control system commonly used in web development?",
+    options: ["Git", "SVN", "Mercurial", "Bazaar"],
+    answer: "Git",
+  },
+  {
+    question: "What is the purpose of a CSS framework?",
     options: [
-      "Great White Shark",
-      "Whale Shark",
-      "Tiger Shark",
-      "Hammerhead Shark",
+      "To provide pre-written CSS styles for faster development",
+      "To manage the structure and behavior of a webpage",
+      "To add interactivity to a webpage",
+      "To store data on the client-side",
     ],
-    answer: "Whale Shark",
+    answer: "To provide pre-written CSS styles for faster development",
   },
   {
-    question: "Which animal is known as the King of the Jungle?",
-    options: ["Lion", "Tiger", "Elephant", "Giraffe"],
-    answer: "Lion",
+    question: "Which of the following is NOT a front-end framework?",
+    options: ["React", "Angular", "Vue.js", "Express"],
+    answer: "Express",
+  },
+  {
+    question: "What is the role of a back-end developer?",
+    options: [
+      "To design the layout and style of a webpage",
+      "To write code that runs on the client-side",
+      "To manage the server-side logic and databases",
+      "To test and debug web applications",
+    ],
+    answer: "To manage the server-side logic and databases",
+  },
+  {
+    question:
+      "Which of the following is a popular database management system used in web development?",
+    options: ["MySQL", "MongoDB", "SQLite", "All of the above"],
+    answer: "All of the above",
+  },
+  {
+    question: "What does API stand for?",
+    options: [
+      "Application Programming Interface",
+      "Automated Programming Interface",
+      "Application Protocol Interface",
+      "Automated Protocol Interface",
+    ],
+    answer: "Application Programming Interface",
   },
 ];
 
