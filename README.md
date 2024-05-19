@@ -45,9 +45,3 @@ This repository contains a collection of 7 basic JavaScript projects designed to
 - Created an application to search for GitHub users and display their profiles.
 - Utilized the GitHub API to retrieve and showcase user data.
 - Enhanced my skills in making HTTP requests and handling API responses.
-
-### Drawing App
-
-- Developed a canvas-based drawing application allowing users to draw with various colors and sizes.
-- Implemented functionality to clear the canvas and change brush settings.
-- Improved my understanding of working with the HTML5 Canvas API.
